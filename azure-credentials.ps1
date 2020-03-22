@@ -1,0 +1,1 @@
+az ad sp create-for-rbac --name "GroffeGitHubActions" --role contributor --scopes /subscriptions/<ID-SUBSCRIPTION>/resourceGroups/GitHubActions/providers/Microsoft.Web/sites/groffe-githubactions --sdk-auth
